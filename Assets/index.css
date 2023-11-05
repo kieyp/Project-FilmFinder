@@ -39,7 +39,6 @@ img {
 
 .namelogo {
   padding: 1rem 0;
-  border-bottom: 1px solid;
   display: inline-block;
 }
 
@@ -266,3 +265,9 @@ img {
   }
 }
 
+#clock {
+  font-size: large;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+}
