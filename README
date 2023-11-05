@@ -1,26 +1,23 @@
-Movie Search Application
-This is a simple web application that allows users to search for movies using the OMDB API. Users can enter a movie title in the search box, and the application fetches movie information from the OMDB API and displays it to the user.
+Project Name: FilmFinder
+Author: BOniface CHeruiyot
 
-Features
-Live Movie Search: Instantly search for movies as you type in the search box.
-Detailed Movie Information: Click on a movie in the search results to view detailed information about the selected movie.
-Responsive Design: The application is designed to work seamlessly on desktop and mobile devices.
-Technologies Used
-HTML: For the basic structure of the web page.
-CSS: For styling the user interface and ensuring a visually appealing layout.
-JavaScript: For handling user interactions, making API requests, and dynamically updating the content.
-Usage
+Description
+My FimFinder Project is a web application that allows users to search for movies online. It provides an easy-to-use interface for searching  and displaying movies
+Project Setup Instructions
+To run this project locally, follow these steps:
 
-.
 
-API Key
-This application uses the OMDB API to fetch movie data. You will need to obtain an API key from OMDB API and replace 'YOUR_API_KEY' in the JavaScript code with your actual API key for the application to work correctly.
+Check out the live site hosted on GitHub Pages: https://kieyp.github.io/Project-FilmFinder/
 
-How to Contribute
-If you want to contribute to this project, follow these steps:
+Copyright and License
+Copyright (c) 2023 Boniface Cheruiyot
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Fork the repository.
-Create a new branch for your feature: git checkout -b feature-name
-Commit your changes: git commit -m 'Add new feature'
-Push to the branch: git push origin feature-name
-Submit a pull request.
+In this README file:
+
+Project Name: Clearly states the name of the project.
+Author: Mentions the name of the project's author.
+Description: Provides a brief overview of what the project does.
+Project Setup Instructions: Offers step-by-step guidance on how to set up and run the project locally.
+Live Site: Provides a direct link to the live version of the project hosted on GitHub Pages.
+Copyright and License: Specifies the copyright year and author's name, along with the license information.
