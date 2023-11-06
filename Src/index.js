@@ -12,6 +12,10 @@ async function loadMovies(searchTerm){
     if(data.Response == "True") displayMovieList(data.Search);
 }
 
+
+
+
+
 // Function to initiate movie search
 function findMovies(){
     let searchTerm = (movieSearchBox.value).trim();
