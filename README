@@ -1,37 +1,31 @@
-FilmFinder: Discover Your Movie Magic! 🎬
+Project Name:FilmFInder
 Author: Boniface Cheruiyot
 
-Welcome to FilmFinder!
-Are you a movie enthusiast, always on the lookout for the next cinematic masterpiece? Look no further! FilmFinder is your gateway to the captivating world of movies. Whether you're seeking information about classic films, the latest blockbusters, or hidden gems, our user-friendly web application has you covered.
+Description
+The FilFinder movie Search Application is a web-based tool that allows users to search for movies using the OMDB API. Users can enter a movie title in the search box, and the application will provide a list of matching movies. Selecting a movie from the list displays detailed information about the chosen film, including its title, year of release, ratings, plot, and more
 
-What Sets FilmFinder Apart?
-FilmFinder isn't just another movie database; it's your personalized movie companion. Here's what makes us unique:
+Project Setup Instructions
+Follow these steps to set up and run the Movie Search Application locally on your machine
 
-Sleek and Intuitive Design: The intuitive interface ensures a seamless browsing experience. Effortlessly navigate through a vast collection of movies with just a few clicks.
+Clone the Repository:
+sh
+in your terminal
+git clone https://github.com/kieyp/Project-FilmFinder.git
 
-Comprehensive Movie Details: From plot summaries and cast information to release dates and user ratings, FilmFinder provides comprehensive details about every movie you search for.
+Navigate to the project directory
+in your terminal
+cd filfinder
 
-Advanced Search Functionality: Looking for movies by a specific actor, director, or genre? FilmFinder's advanced search feature lets you tailor your searches to find precisely what you're looking for.
+https://github.com/kieyp/Project-FilmFinder.git
 
-Real-Time Updates: Stay in the loop with real-time updates on the latest movie releases and trending titles. FilmFinder keeps you informed about what's hot in the world of cinema.
+Open index.html in Your Browser:
 
-Getting Started
-Ready to dive into the cinematic universe? Follow these steps to get started with FilmFinder:
+Double-click index.html or right-click and choose "Open with" to launch the application in your default web browser.
 
-Explore the Movie Magic: Visit our live site hosted on GitHub Pages: https://kieyp.github.io/Project-FilmFinder/
+Live Site
+Check out the live version of the Movie Search Application hosted on GitHub Pages: https://kieyp.github.io/Project-FilmFinder/
 
-Search and Discover: Enter the name of your favorite movie, actor, or director in the search bar. FilmFinder will fetch detailed information for you.
+Copyright and License Information
+Author: Boniface Cheruiyot
+License: This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Create Your Watchlist: Sign up for a FilmFinder account to create your personalized watchlist. Keep track of movies you've watched, want to watch, and your all-time favorites.
-
-Spread the FilmFinder Love!
-Help us grow our movie-loving community! Share FilmFinder with your friends and fellow cinephiles. Let them embark on a cinematic journey like never before.
-
-Copyright and License
-© 2023 Boniface Cheruiyot
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Ready to embark on your movie adventure? Explore FilmFinder and let the magic of cinema unfold before your eyes! 🍿✨
-
-Regenerate
