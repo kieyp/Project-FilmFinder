@@ -1,8 +1,4 @@
-
-document.addEventListener("DOMContentLoaded",()=>{
-
-
-    // Get references to HTML elements
+// Get references to HTML elements
 const movieSearchBox = document.getElementById('movie-search-box');
 const searchList = document.getElementById('search-list');
 const resultGrid = document.getElementById('result-grid');
@@ -15,6 +11,9 @@ async function loadMovies(searchTerm){
     console.log(data.Search); // Logging the movie search results to the console
     if(data.Response == "True") displayMovieList(data.Search);
 }
+
+
+
 
 
 // Function to initiate movie search
@@ -96,6 +95,3 @@ window.addEventListener('click', (event) => {
         searchList.classList.add('hide-search-list');
     }
 });
-
-
-})
