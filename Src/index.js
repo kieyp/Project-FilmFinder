@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             let movieListItem = document.createElement('div');
             movieListItem.dataset.id = movies[item].imdbID; // Setting movie ID in data-id attribute
             movieListItem.classList.add('search-list-item');
-
+            let moviePoster = (movies[item].Poster != "N/A") ? movies[item].Poster : "image_not_found.png"; // Handling missing movie posters
             movieListItem.innerHTML = `
             <div class = "search-item-thumbnail">
                 <img src = "${moviePoster}">
