@@ -1,24 +1,30 @@
 Project Name:FilmFInder
 Author: Boniface Cheruiyot
 
+Features
+Search Movies: Users can enter a movie title in the search box to find matching movies.
+Detailed Information: Selecting a movie from the search results displays comprehensive details about the chosen film, including its title, year of release, ratings, plot, and more.
+
 Description
 The FilmFinder movie Search Application is a web-based tool that allows users to search for movies using the OMDB API. Users can enter a movie title in the search box, and the application will provide a list of matching movies. Selecting a movie from the list displays detailed information about the chosen film, including its title, year of release, ratings, plot, and more
 
 Project Setup Instructions
 Follow these steps to set up and run the Movie Search Application locally on your machine
 
-Clone the Repository:
+Prerequisites
+Git
+Any modern web browser
+
+1.Clone the Repository:
 sh
 in your terminal
 git clone https://github.com/kieyp/Project-FilmFinder.git
 
-Navigate to the project directory
+2.Navigate to the project directory
 in your terminal
 cd filfinder
 
-https://github.com/kieyp/Project-FilmFinder.git
-
-Open index.html in Your Browser:
+3.Open index.html in Your Browser:
 
 Double-click index.html or right-click and choose "Open with" to launch the application in your default web browser.
 
@@ -28,4 +34,3 @@ Check out the live version of the Movie Search Application hosted on GitHub Page
 Copyright and License Information
 Author: Boniface Cheruiyot
 License: This project is licensed under the MIT License - see the LICENSE.md file for details.
-

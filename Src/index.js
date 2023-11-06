@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded",()=>{
-    
+
     // Get references to HTML elements
     const movieSearchBox = document.getElementById('movie-search-box');
     const searchList = document.getElementById('search-list');
@@ -14,8 +14,6 @@ document.addEventListener("DOMContentLoaded",()=>{
         console.log(data.Search); // Logging the movie search results to the console
         if(data.Response == "True") displayMovieList(data.Search);
     }
-    
-    
     
     
     
@@ -38,7 +36,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             let movieListItem = document.createElement('div');
             movieListItem.dataset.id = movies[item].imdbID; // Setting movie ID in data-id attribute
             movieListItem.classList.add('search-list-item');
-            let moviePoster = (movies[item].Poster != "N/A") ? movies[item].Poster : "image_not_found.png"; // Handling missing movie posters
+
             movieListItem.innerHTML = `
             <div class = "search-item-thumbnail">
                 <img src = "${moviePoster}">
