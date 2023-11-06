@@ -2,7 +2,7 @@ Project Name:FilmFInder
 Author: Boniface Cheruiyot
 
 Description
-The FilFinder movie Search Application is a web-based tool that allows users to search for movies using the OMDB API. Users can enter a movie title in the search box, and the application will provide a list of matching movies. Selecting a movie from the list displays detailed information about the chosen film, including its title, year of release, ratings, plot, and more
+The FilmFinder movie Search Application is a web-based tool that allows users to search for movies using the OMDB API. Users can enter a movie title in the search box, and the application will provide a list of matching movies. Selecting a movie from the list displays detailed information about the chosen film, including its title, year of release, ratings, plot, and more
 
 Project Setup Instructions
 Follow these steps to set up and run the Movie Search Application locally on your machine
